@@ -9,6 +9,8 @@ body {
 }
 
 .container {
+    transform: translateX(100px);
+    transform: translateY(-50px);
     display: flex;
     align-items: center;
     gap: 50px;
@@ -19,16 +21,16 @@ body {
 }
 
 h1 {
-    font-size: 40px;
-}
-
-h2 {
     font-size: 25px;
 }
 
+h2 {
+    font-size: 18px;
+}
+
 img {
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 10px;
 }
